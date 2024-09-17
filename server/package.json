@@ -1,5 +1,5 @@
 {
-  "name": "4ever",
+  "name": "classroom",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ftwammes/4ever.git"
+    "url": "git+https://github.com/ftwammes/classroom.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ftwammes/4ever/issues"
+    "url": "https://github.com/ftwammes/classroom/issues"
   },
-  "homepage": "https://github.com/ftwammes/4ever#readme",
+  "homepage": "https://github.com/ftwammes/classroom#readme",
   "description": "",
   "devDependencies": {
     "@types/express": "^4.17.21",
