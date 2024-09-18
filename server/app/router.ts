@@ -1,8 +1,11 @@
 import { Router } from "express";
-import { firstController } from "./controller/FirstController";
+import { Courses } from "./controller/courses";
 
-const router: Router = Router()
+const router: Router = Router();
+const coursesController = new Courses();
 
-router.get("/", firstController.home);
+// Usar bind para garantir que 'this' dentro dos métodos aponte para a instância correta
+router.get("/courses", coursesController.getAll.bind(coursesController));
+router.get("/courses/:id", coursesController.get.bind(coursesController));
 
 export { router };
