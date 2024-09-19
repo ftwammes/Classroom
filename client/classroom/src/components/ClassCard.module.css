@@ -1,16 +1,16 @@
 .classCard__upper {
-    background-color: #0979a2;
-    height: 90px;
+    background-color: #00a5e0;
+    height: 35%;
     position: relative;
     color: white;
     padding: 10px;
-    border-bottom: 1px solid #dcdcdc;
+    /* border-bottom: 10px solid #dcdcdc; */
   }
   
   .classCard {
-    width: 300px;
+    width: 320px;
     border: 1px solid #dcdcdc;
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
   }
@@ -21,9 +21,11 @@
   }
   
   .classCard__creatorPhoto {
+    width: 85px;
     position: absolute;
-    right: 5px;
+    right: 17px;
     border-radius: 9999px;
+    margin-top: 15px;
   }
   
   .classCard__className {
@@ -35,6 +37,7 @@
     position: absolute;
     bottom: 12px;
     font-size: 15px;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
   }
   
   .classCard__lower {
