@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ftwammes/classroom#readme",
   "description": "",
   "devDependencies": {
+    "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
     "@types/node": "^22.5.4",
     "nodemon": "^3.1.4",
@@ -26,6 +27,7 @@
   },
   "dependencies": {
     "@types/react-router-dom": "^5.3.3",
+    "cors": "^2.8.5",
     "express": "^4.20.0",
     "react-router-dom": "^6.26.2"
   }
