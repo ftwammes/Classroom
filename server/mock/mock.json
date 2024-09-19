@@ -3,6 +3,8 @@
         {
             "id": "685041525997",
             "name": "2º Sistemas Embarcados - SR",
+            "image": "https://lh3.googleusercontent.com/hr_crs_themes/ACP_IjGHsnGzRgXn-sb2dztEkrHsxb89u9vZjOahUMAwN8X3EKnEt69HjeBfsyqk8RdKMJ_EH_kqq3cyyHEayYp1KteNsradY_QC61vcvWPEVw-TGok3AL3SOg=s1280",
+            "color": "#7627bb",
             "teacher": {
                 "id": "117377685722390238528",
                 "name": "Prof. Ariel",
@@ -125,6 +127,8 @@
         {
             "id": "701254568274",
             "name": "6N - Mundo Digital - 24/2",
+            "image": "https://lh3.googleusercontent.com/hr_crs_themes/ACP_IjGHsnGzRgXn-sb2dztEkrHsxb89u9vZjOahUMAwN8X3EKnEt69HjeBfsyqk8RdKMJ_EH_kqq3cyyHEayYp1KteNsradY_QC61vcvWPEVw-TGok3AL3SOg=s1280",
+            "color": "#f44336",
             "teacher": {
                 "id": "117377685722390238529",
                 "name": "Prof. Djeison",
@@ -573,6 +577,8 @@
         {
             "id": "702933279436",
             "name": "2024/2 Sistemas Distribuídos",
+            "image": "https://lh3.googleusercontent.com/hr_crs_themes/ACP_IjGHsnGzRgXn-sb2dztEkrHsxb89u9vZjOahUMAwN8X3EKnEt69HjeBfsyqk8RdKMJ_EH_kqq3cyyHEayYp1KteNsradY_QC61vcvWPEVw-TGok3AL3SOg=s1280",
+            "color": "#2756bb",
             "teacher": {
                 "id": "117377685722390238530",
                 "name": "Prof. Maria",
