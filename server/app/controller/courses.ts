@@ -21,6 +21,8 @@ export class Courses {
             courses.push({
                 id: course.id,
                 name: course.name,
+                image: course.image,
+                color: course.color,
                 descriptionHeading: course.descriptionHeading,
                 teacher,
             });

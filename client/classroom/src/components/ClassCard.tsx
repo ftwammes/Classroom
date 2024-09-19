@@ -1,20 +1,14 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { IconButton } from "@mui/material";
 import { AssignmentIndOutlined, FolderOpenOutlined } from "@mui/icons-material";
 import styles from "./ClassCard.module.css"; // Ajuste o caminho conforme necessário
+import course_interface from "../interfaces/course";
 
-interface ClassCardProps {
-  name: string;
-  creatorName: string;
-  creatorPhoto: string;
-  id: string | number;
-  style?: React.CSSProperties;
-}
 
-const ClassCard: React.FC<ClassCardProps> = ({ name, creatorName, creatorPhoto, id, style }) => {
+const ClassCard: React.FC<course_interface> = ({ id, name, image, color, descriptionHeading, teacher }) => {
   // const router = useRouter();
 
   // const goToClass = () => {
@@ -22,11 +16,23 @@ const ClassCard: React.FC<ClassCardProps> = ({ name, creatorName, creatorPhoto, 
   // };
 
   return (
-    <div className={styles.classCard} style={style} >
-      <div className={styles.classCard__upper}>
-        <div className={styles.classCard__className}>{name}</div>
-        <div className={styles.classCard__creatorName}>{creatorName}</div>
-        <img src={creatorPhoto} className={styles.classCard__creatorPhoto} alt="Creator" />
+    <div className={styles.classCard}>
+      <div
+        className={styles.classCardHeader}
+        style={{
+          backgroundImage: `url(${image})`
+        }}
+      >
+        <div
+          className={styles.overlay}
+          style={{ backgroundColor: color, opacity: 0.5 }} // Opacidade pode ser ajustada
+        ></div>
+        <div className={styles.classCard__upper}>
+          <div className={styles.classCard__className}>{descriptionHeading}</div>
+          <div className={styles.classCard__creatorName}>{teacher.name}</div>
+          <img src={teacher.image} className={styles.classCard__creatorPhoto} alt="Creator" />
+        </div>
+
       </div>
       <div className={styles.classCard__middle}></div>
       <div className={styles.classCard__lower}>
@@ -38,6 +44,7 @@ const ClassCard: React.FC<ClassCardProps> = ({ name, creatorName, creatorPhoto, 
         </IconButton>
       </div>
     </div>
+
   );
 };
 

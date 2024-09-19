@@ -1,6 +1,9 @@
+import { color } from './../../../client/classroom/node_modules/@mui/system/palette/palette.d';
 export default interface mock_interface {
     id: number,
     name: string,
+    image: string,
+    color: string,
     teacher: {
         id: number,
         name: string,

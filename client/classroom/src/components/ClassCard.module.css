@@ -1,10 +1,9 @@
 .classCard__upper {
-    background-color: #00a5e0;
-    height: 35%;
     position: relative;
     color: white;
     padding: 10px;
-    /* border-bottom: 10px solid #dcdcdc; */
+    background-size: cover;
+    overflow: hidden;
   }
   
   .classCard {
@@ -13,6 +12,24 @@
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
+    position: relative;
+    color: white;
+  }
+
+  .classCardHeader {
+    overflow: hidden;
+    position: relative;
+    height: 35%;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    /* Permite que cliques passem para a div abaixo */
   }
   
   .classCard__middle {

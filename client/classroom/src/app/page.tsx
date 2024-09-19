@@ -1,28 +1,49 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import styles from "./page.module.css";
 import ClassCard from "../components/ClassCard";
+import course_interface from "../interfaces/course";
+
 import Navbar from "../components/Navbar";
 
 export default function Home() {
+  const [courses, setCourses] = useState([]);
+
+  const fetchCourses = async () => {
+    fetch("http://localhost:3000/courses").then(res => {
+      return res.json();
+    }).then(data => {
+      setCourses(data.courses);
+    }).catch(error => {
+      console.error(error.message);
+    });
+  };
+
+  useState(() => {
+    fetchCourses();
+  });
+
   return (
     
     <div className={styles.page}>
       <Navbar></Navbar>
       <main className={styles.main}>
-        <ClassCard
-          name="Materia 1"
-          creatorName="Professor 1"
-          creatorPhoto="https://down-br.img.susercontent.com/file/br-11134207-7r98o-lykwcwv6r86ddf" 
-          id="1"
-        />
-        <ClassCard
-          name="Materia 2"
-          creatorName="Professor 2"
-          creatorPhoto="https://down-br.img.susercontent.com/file/br-11134207-7r98o-lykwcwv6r86ddf" 
-          id="2"
-        />
+        {
+        courses.map((course:course_interface) => {
+            return (
+              <ClassCard
+                id={course.id}
+                name={course.name}
+                image={course.image}
+                color={course.color}
+                descriptionHeading={course.descriptionHeading}
+                teacher={course.teacher}
+              />
+            );
+            
+          })
+        }
       </main>
     </div>
   );
