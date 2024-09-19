@@ -5,6 +5,7 @@ import styles from "./page.module.css";
 import ClassCard from "../components/ClassCard";
 import course_interface from "../interfaces/course";
 
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   const [courses, setCourses] = useState([]);
@@ -24,9 +25,13 @@ export default function Home() {
   });
 
   return (
+    
     <div className={styles.page}>
+      
+      <Navbar/>
       <main className={styles.main}>
         {
+        
         courses.map((course:course_interface) => {
             return (
               <ClassCard

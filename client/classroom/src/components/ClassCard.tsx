@@ -3,17 +3,12 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { IconButton } from "@mui/material";
-import { AssignmentIndOutlined, FolderOpenOutlined } from "@mui/icons-material";
+import { AssignmentIndOutlined, FolderOpenOutlined, MoreVert } from "@mui/icons-material";
 import styles from "./ClassCard.module.css"; // Ajuste o caminho conforme necessário
 import course_interface from "../interfaces/course";
 
 
 const ClassCard: React.FC<course_interface> = ({ id, name, image, color, descriptionHeading, teacher }) => {
-  // const router = useRouter();
-
-  // const goToClass = () => {
-  //   router.push(`/class/${id}`);
-  // };
 
   return (
     <div className={styles.classCard}>
@@ -25,8 +20,11 @@ const ClassCard: React.FC<course_interface> = ({ id, name, image, color, descrip
       >
         <div
           className={styles.overlay}
-          style={{ backgroundColor: color, opacity: 0.5 }} // Opacidade pode ser ajustada
+          style={{ backgroundColor: color, opacity: 0.5 }}
         ></div>
+           <IconButton className={styles.menuIcon}>
+          <MoreVert />
+        </IconButton>
         <div className={styles.classCard__upper}>
           <div className={styles.classCard__className}>{descriptionHeading}</div>
           <div className={styles.classCard__creatorName}>{teacher.name}</div>
@@ -36,12 +34,14 @@ const ClassCard: React.FC<course_interface> = ({ id, name, image, color, descrip
       </div>
       <div className={styles.classCard__middle}></div>
       <div className={styles.classCard__lower}>
+        <div className={styles.classIcon}>
         <IconButton>
-          <FolderOpenOutlined />
+          <FolderOpenOutlined/>
         </IconButton>
         <IconButton>
           <AssignmentIndOutlined />
         </IconButton>
+        </div>
       </div>
     </div>
 

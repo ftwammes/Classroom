@@ -1,62 +1,78 @@
 .classCard__upper {
-  height: 90px;
-  color: white;
-  padding: 10px;
-  border-bottom: 1px solid #dcdcdc;
-  background-size: cover;
-  position: relative;
-  overflow: hidden;
-}
-
-.classCard {
-  width: 300px;
-  border: 1px solid #dcdcdc;
-  border-radius: 5px;
-  overflow: hidden;
-  cursor: pointer;
-  position: relative;
-  color: white;
-  /* Cor do texto */
-}
-
-.classCardHeader {
-  overflow: hidden;
-  position: relative;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  pointer-events: none;
-  /* Permite que cliques passem para a div abaixo */
-}
-
-.classCard__middle {
-  height: 190px;
-  border-bottom: 1px solid #dcdcdc;
-}
-
-.classCard__creatorPhoto {
-  position: absolute;
-  right: 5px;
-  border-radius: 9999px;
-}
-
-.classCard__className {
-  font-weight: 600;
-  font-size: 30px;
-}
-
-.classCard__creatorName {
-  position: absolute;
-  bottom: 12px;
-  font-size: 15px;
-}
-
-.classCard__lower {
-  display: flex;
-  flex-direction: row-reverse;
-}
+    position: relative;
+    color: white;
+    padding: 10px;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .classCard {
+    width: 350px;
+    border: 1px solid #dadce0;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    color: white;
+    height: 380px;
+    margin: 15px; 
+  }
+  
+  .classCardHeader {
+    overflow: hidden;
+    position: relative;
+    height: 120px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    /* Permite que cliques passem para a div abaixo */
+  }
+  
+  .classCard__middle {
+    height: 215px;
+    border-bottom: 1px solid #dcdcdc;
+  }
+  
+  .classCard__creatorPhoto {
+    width: 85px;
+    position: absolute;
+    right: 17px;
+    border-radius: 9999px;
+    top: 72px;
+  }
+  
+  .classCard__className {
+    font-weight: 600;
+    font-size: 28px;
+    height: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  .classCard__creatorName {
+    position: absolute; 
+    top: 85px; 
+    font-size: 15px;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+  }
+  
+  .classCard__lower {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .menuIcon {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+    color: white; 
+    width: 30px;
+  }
