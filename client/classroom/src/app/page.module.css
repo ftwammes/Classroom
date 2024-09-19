@@ -14,23 +14,20 @@
   font-family: var(--font-geist-sans);
 }
 
-@media (prefers-color-scheme: dark) {
-  .page {
-    --gray-rgb: 255, 255, 255;
-    --gray-alpha-200: rgba(var(--gray-rgb), 0.145);
-    --gray-alpha-100: rgba(var(--gray-rgb), 0.06);
+.main {
+  display: ruby;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: space-around; /* Centralizar os cards */
+  align-items: flex-start; /* Alinhar os cards no topo */
+}
 
-    --button-primary-hover: #ccc;
-    --button-secondary-hover: #1a1a1a;
+@media (max-width: 768px) {
+  .card {
+    width: 100%; /* Em telas menores, os cards ocuparão 100% da largura */
   }
 }
 
-.main {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  grid-row-start: 2;
-}
 
 .main ol {
   font-family: var(--font-geist-mono);

@@ -27,9 +27,11 @@ export default function Home() {
   return (
     
     <div className={styles.page}>
-      <Navbar></Navbar>
+      
+      <Navbar/>
       <main className={styles.main}>
         {
+        
         courses.map((course:course_interface) => {
             return (
               <ClassCard
