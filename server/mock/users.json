@@ -1,0 +1,32 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Matheus",
+            "email": "matheus@sou.unijui.edu.br",
+            "phone": "5555999999999",
+            "password": "123456"
+        }, 
+        {
+            "id": 2,
+            "name": "Fernanda",
+            "email": "matheus@sou.unijui.edu.br",
+            "phone": "5555111111111",
+            "password": "123456"
+        }, 
+        {
+            "id": 3,
+            "name": "Diego",
+            "email": "diego@sou.unijui.edu.br",
+            "phone": "5555222222222",
+            "password": "123456"
+        }, 
+        {
+            "id": 4,
+            "name": "Elias",
+            "email": "elias@sou.unijui.edu.br",
+            "phone": "5555333333333",
+            "password": "123456"
+        }
+    ]
+}

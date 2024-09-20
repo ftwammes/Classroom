@@ -1,52 +1,27 @@
 "use client";
 
 import React, { useState } from "react";
-import styles from "./page.module.css";
-import ClassCard from "../components/ClassCard";
-import course_interface from "../interfaces/course";
-
-import Navbar from "../components/Navbar";
+import Link from 'next/link';
+import Login from "../components/Login";
 
 export default function Home() {
-  const [courses, setCourses] = useState([]);
-
-  const fetchCourses = async () => {
-    fetch("http://localhost:3000/courses").then(res => {
-      return res.json();
-    }).then(data => {
-      setCourses(data.courses);
-    }).catch(error => {
-      console.error(error.message);
-    });
-  };
-
-  useState(() => {
-    fetchCourses();
-  });
-
   return (
-    
-    <div className={styles.page}>
-      
-      <Navbar/>
-      <main className={styles.main}>
-        {
-        
-        courses.map((course:course_interface) => {
-            return (
-              <ClassCard
-                id={course.id}
-                name={course.name}
-                image={course.image}
-                color={course.color}
-                descriptionHeading={course.descriptionHeading}
-                teacher={course.teacher}
-              />
-            );
-            
-          })
-        }
-      </main>
+    <div>
+      <div>
+        <Login />
+      </div>
+      <div>
+        <div>
+          <select>
+            <option>Português (Brasil)</option>
+          </select>
+        </div>
+        <div>
+          <Link href="https://support.google.com/accounts?hl=pt-BR&p=account_iph">Ajuda</Link>
+          <Link href="https://accounts.google.com/TOS?loc=BR&hl=pt-BR&privacy=true">Privacidade</Link>
+          <Link href="https://accounts.google.com/TOS?loc=BR&hl=pt-BR">Termos</Link>
+        </div>
+      </div>
     </div>
   );
 }
