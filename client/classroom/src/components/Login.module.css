@@ -1,0 +1,236 @@
+.main {
+    background-color: var(--background-gray);
+    width: 100vw;
+    height: 100vh;
+    color: var(--primary-font-color);
+    font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.main h1, 
+.main h2 {
+    font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+    font-weight: 200;
+}
+
+.main h2 {
+    margin-top: 16px;
+    font-size: 1rem;
+}
+
+.cardLogin {
+    background-color: var(--background);
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.contentTabs {
+    width: 50%;
+}
+
+.inputText {
+    width: 100%;
+}
+
+.inputPassword {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.paragraph {
+    color: var(--secundary-font-color);
+    margin-top: 32px;
+    font-size: .9rem;
+}
+
+.buttonsArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 32px;
+}
+
+.link {
+    color: #0957D0;
+    padding: 9px 0 3px;
+    background: none;
+    border: none;
+    font-weight: 700;
+    font-size: .9rem;
+}
+
+.googleLogo {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 36px;
+    left: 36px;
+}
+
+.buttonSolid {
+    background-color: #0957D0;
+    color: #ffffff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0rem;
+    line-height: 1.4285714286;
+}
+
+.buttonSolid:hover {
+    background-color: #124EB5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.buttonOutline {
+    background-color: transparent;
+    color: #0957D0;
+    border: none;
+    padding: 10px 13px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0rem;
+    line-height: 1.4285714286;
+}
+
+.buttonOutline:hover {
+    background-color: var(--background-gray);
+}
+
+.footer {
+    direction: ltr;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0rem;
+    line-height: 1.4285714286;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+.footerButtonList {
+    display: flex;
+    list-style-type: none;
+}
+
+.footerButton {
+    margin: 24px 16px;
+    font-size: .78rem;
+}
+
+.selectCountry {
+    font-size: .75rem;
+    width: fit-content;
+    border: none;
+}
+
+.selectCountry fieldset {
+    border: none;
+}
+
+.chipUser {
+    margin-top: 16px;
+}
+
+.chipUser .MuiAvatar-circular {
+    background-color: transparent;
+}
+
+@media (min-width: 600px) {
+    .cardLogin {
+        border-radius: 28px;
+        min-height: 528px;
+        padding-left: 24px;
+        padding-right: 24px;
+        width: 480px;
+    }
+
+    .footer {
+        width: 480px;
+    }
+}
+
+@media (min-width: 600px) and (orientation: landscape) {
+    .cardLogin {
+        border-radius: 28px;
+        min-height: unset;
+        padding-left: 24px;
+        padding-right: 24px;
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+}
+
+@media (min-width: 840px) {
+    .cardLogin {
+        padding: 96px 24px 24px 24px;
+        width: 480px;
+    }
+
+    .footer {
+        width: 480px;
+    }
+}
+
+@media (min-width: 840px) and (orientation: landscape) {
+    .cardLogin{
+        padding-left: 32px;
+        padding-right: 32px;
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+}
+
+@media (min-width: 960px) {
+    .cardLogin {
+        padding-left: 24px;
+        padding-right: 24px;
+        width: 480px;
+    }
+
+    .footer {
+        width: 480px;
+    }
+}
+
+@media (min-width: 960px) and (orientation: landscape) {
+    .cardLogin {
+        padding: 108px 36px 36px 36px;
+        width: 840px;
+    }
+
+    .footer {
+        width: 840px;
+    }
+}
+
+
+
+
+
+
+

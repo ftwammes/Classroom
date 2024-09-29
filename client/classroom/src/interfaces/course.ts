@@ -7,5 +7,11 @@ export default interface course_interface {
     image: string,
     color: string,
     descriptionHeading: string,
-    teacher: teacher_interface
+    teacher: teacher_interface, 
+    activities: [{
+        id: number,
+        dueTime: string,
+        dayOfWeek: string,
+        title: string
+    }]
 }

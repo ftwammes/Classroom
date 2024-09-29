@@ -3,7 +3,6 @@
     color: white;
     padding: 10px;
     background-size: cover;
-    overflow: hidden;
   }
   
   .classCard {
@@ -19,7 +18,6 @@
   }
   
   .classCardHeader {
-    overflow: hidden;
     position: relative;
     height: 120px;
   }
@@ -37,6 +35,23 @@
   .classCard__middle {
     height: 215px;
     border-bottom: 1px solid #dcdcdc;
+    color: var(--primary-font-color);
+  }
+
+  .classCard__activity {
+    font-size: .8rem;
+    padding: 17px;
+    font-weight: 500;
+  }
+
+  .classCard__activityLabel {
+    color: #0000008c;
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  .classCard__activityName:hover {
+    text-decoration: underline;
   }
   
   .classCard__creatorPhoto {
@@ -48,14 +63,17 @@
   }
   
   .classCard__className {
-    font-weight: 600;
-    font-size: 28px;
-    height: 100px;
+    font-weight: 300;
+    font-size: 1.2rem;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     width: 100%;
     margin-top: 15px;
+  }
+
+  .classCard__className:hover {
+    text-decoration: underline;
   }
   
   .classCard__creatorName {
@@ -63,6 +81,10 @@
     top: 85px; 
     font-size: 15px;
     font-family: "Roboto", Helvetica, Arial, sans-serif;
+  }
+
+  .classCard__creatorName:hover {
+    text-decoration: underline;
   }
   
   .classCard__lower {
