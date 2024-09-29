@@ -7,8 +7,8 @@
             "color": "#7627bb",
             "teacher": {
                 "id": "117377685722390238528",
-                "name": "Prof. Ariel",
-                "image": "https://cdn-icons-png.flaticon.com/256/3177/3177440.png"
+                "name": "Prof. Bean",
+                "image": "/bean.jpg"
             },
             "descriptionHeading": "2º Sistemas Embarcados - SR",
             "ownerId": "117377685722390238528",
@@ -122,7 +122,7 @@
                     "creatorUserId": "117377685722390238528"
                 }
             ],
-            "courseWork": []
+            "activities": []
         },
         {
             "id": "701254568274",
@@ -132,7 +132,7 @@
             "teacher": {
                 "id": "117377685722390238529",
                 "name": "Prof. Djeison",
-                "image": "https://cdn-icons-png.flaticon.com/256/3177/3177440.png"
+                "image": "/catchaum.png"
             },
             "descriptionHeading": "6N - Mundo Digital - 24/2",
             "ownerId": "101214062386013026470",
@@ -160,344 +160,7 @@
                     "creatorUserId": "101214062386013026470"
                 }
             ],
-            "courseWork": [
-                {
-                    "courseId": "701254568274",
-                    "id": "685730882387",
-                    "title": "Caderno de Aula",
-                    "description": "O CADERNO DE AULA é uma ferramenta importante para a sua aprendizagem. Nele são colocadas as informações relevantes sobre o conhecimento que está sendo adquirido e serve como ferramenta didática de consolidação do processo de ensino aprendizagem.\n\nManter um  é uma prática de grande valor no processo de aprendizado, especialmente em cursos exigentes como os de engenharia e tecnologia. Embora, nos dias de hoje, o uso de dispositivos eletrônicos seja cada vez mais comum, o registro manual oferece vantagens significativas para a consolidação do conhecimento.\n\nEscrever à mão envolve processos cognitivos que melhoram a compreensão e a memorização dos conteúdos. Quando anotamos, somos forçados a sintetizar as ideias, o que exige maior concentração e um nível de processamento mais profundo. Esse esforço mental ativa partes do cérebro responsáveis pelo armazenamento de informações, facilitando a retenção do conhecimento por um período mais longo.\n\nAlém disso, um caderno manuscrito é um recurso de consulta personalizado e organizado de acordo com a sua própria lógica. Nele, você pode fazer anotações detalhadas, destacar pontos importantes, acrescentar diagramas ou esboços, e, principalmente, revisar de forma ativa os conceitos que está estudando. Esse processo é crucial para a assimilação das disciplinas, principalmente nas áreas técnicas, onde o domínio teórico está frequentemente ligado a aplicações práticas.\n\nOutro ponto relevante é que o ato de escrever manualmente contribui para o desenvolvimento da habilidade de estruturação do raciocínio, que é fundamental para resolver problemas complexos. O caderno permite que você construa uma linha de pensamento, registre dúvidas e faça conexões entre os conteúdos de forma clara, sendo um apoio constante para seu aprendizado ao longo da graduação.\n\nPortanto, o caderno de aulas manuscrito não é apenas uma ferramenta de registro, mas um meio ativo de construção e solidificação do seu conhecimento.\n\nIMPORTANTE: O caderno de aula poderá ser usado como único elemento de consulta na avaliação de final de semestre. Deixar o caderno bem completo e organizado irá ajudar a melhorar o resultado das suas avaliações. O CADERNO DE AULA será avaliado no final do semestre e poderá se constituir em pontuação extra adicional a pedido do interessado, pela demonstração da dedicação e interesse na sua própria formação profissional.\n\nIMPORTANTE 2: As páginas usadas do CADERNO DE AULA podem/devem ser numeradas sequencialmente de forma crescente do inicio ao fim, e as páginas escritas devem ter identificação da data. O caderno deve ter o nome do autor identificado na primeira página.\n\nOBSERVAÇÃO: Os cadernos manuscritos podem se tornar em registro de propriedade intelectual para o autor, sempre e quando sejam seguidas as recomendações anteriores e ainda, que o registro tenha encadernação do tipo colada e que mantenham a integridade.",
-                    "state": "PUBLISHED",
-                    "alternateLink": "https://classroom.google.com/c/NzAxMjU0NTY4Mjc0/a/Njg1NzMwODgyMzg3/details",
-                    "creationTime": "2024-09-17T14:24:31.957Z",
-                    "updateTime": "2024-09-17T16:49:54.451Z",
-                    "dueDate": {
-                        "year": 2024,
-                        "month": 11,
-                        "day": 28
-                    },
-                    "dueTime": {
-                        "hours": 2,
-                        "minutes": 59
-                    },
-                    "maxPoints": 100,
-                    "workType": "ASSIGNMENT",
-                    "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
-                    "creatorUserId": "101214062386013026470"
-                },
-                {
-                    "courseId": "701254568274",
-                    "id": "685651426420",
-                    "title": "MD - 6 - Funções de Lógica Combinacional",
-                    "materials": [
-                    ],
-                    "state": "PUBLISHED",
-                    "alternateLink": "https://classroom.google.com/c/NzAxMjU0NTY4Mjc0/a/Njg1NjUxNDI2NDIw/details",
-                    "creationTime": "2024-09-13T20:38:48.901Z",
-                    "updateTime": "2024-09-13T20:39:19.821Z",
-                    "maxPoints": 100,
-                    "workType": "ASSIGNMENT",
-                    "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
-                    "creatorUserId": "101214062386013026470",
-                    "topicId": "685006766056"
-                },
-                {
-                    "courseId": "701254568274",
-                    "id": "685555444339",
-                    "title": "LE - 1 - Conceitos introdutórios",
-                    "materials": [
-                    ],
-                    "state": "PUBLISHED",
-                    "alternateLink": "https://classroom.google.com/c/NzAxMjU0NTY4Mjc0/a/Njg1NTU1NDQ0MzM5/details",
-                    "creationTime": "2024-09-10T18:12:44.644Z",
-                    "updateTime": "2024-09-11T20:42:23.228Z",
-                    "dueDate": {
-                        "year": 2024,
-                        "month": 9,
-                        "day": 17
-                    },
-                    "dueTime": {
-                        "hours": 2,
-                        "minutes": 59
-                    },
-                    "maxPoints": 100,
-                    "workType": "ASSIGNMENT",
-                    "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
-                    "creatorUserId": "101214062386013026470",
-                    "topicId": "685555503635"
-                },
-                {
-                    "courseId": "701254568274",
-                    "id": "685559540742",
-                    "title": "LE - 2 - Números, Sistemas de Numeração, Operações e Códigos",
-                    "materials": [
-                    ],
-                    "state": "PUBLISHED",
-                    "alternateLink": "https://classroom.google.com/c/NzAxMjU0NTY4Mjc0/a/Njg1NTU5NTQwNzQy/details",
-                    "creationTime": "2024-09-10T20:03:22.725Z",
-                    "updateTime": "2024-09-11T20:42:05.101Z",
-                    "dueDate": {
-                        "year": 2024,
-                        "month": 9,
-                        "day": 17
-                    },
-                    "dueTime": {
-                        "hours": 2,
-                        "minutes": 59
-                    },
-                    "maxPoints": 100,
-                    "workType": "ASSIGNMENT",
-                    "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
-                    "creatorUserId": "101214062386013026470",
-                    "topicId": "685555503635"
-                },
-                {
-                    "courseId": "701254568274",
-                    "id": "685563300257",
-                    "title": "LE - 3 - Portas lógicas",
-                    "materials": [
-                    ],
-                    "state": "PUBLISHED",
-                    "alternateLink": "https://classroom.google.com/c/NzAxMjU0NTY4Mjc0/a/Njg1NTYzMzAwMjU3/details",
-                    "creationTime": "2024-09-10T23:05:42.415Z",
-                    "updateTime": "2024-09-11T20:41:49.443Z",
-                    "dueDate": {
-                        "year": 2024,
-                        "month": 9,
-                        "day": 17
-                    },
-                    "dueTime": {
-                        "hours": 2,
-                        "minutes": 59
-                    },
-                    "maxPoints": 100,
-                    "workType": "ASSIGNMENT",
-                    "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
-                    "creatorUserId": "101214062386013026470",
-                    "topicId": "685555503635"
-                },
-                {
-                    "courseId": "701254568274",
-                    "id": "685598562567",
-                    "title": "LE - 5 - Análise lógica combinacional",
-                    "materials": [
-                    ],
-                    "state": "PUBLISHED",
-                    "alternateLink": "https://classroom.google.com/c/NzAxMjU0NTY4Mjc0/a/Njg1NTk4NTYyNTY3/details",
-                    "creationTime": "2024-09-11T20:40:16.125Z",
-                    "updateTime": "2024-09-11T20:41:27.694Z",
-                    "dueDate": {
-                        "year": 2024,
-                        "month": 9,
-                        "day": 24
-                    },
-                    "dueTime": {
-                        "hours": 2,
-                        "minutes": 59
-                    },
-                    "maxPoints": 100,
-                    "workType": "ASSIGNMENT",
-                    "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
-                    "creatorUserId": "101214062386013026470",
-                    "topicId": "685555503635"
-                },
-                {
-                    "courseId": "701254568274",
-                    "id": "709788772412",
-                    "title": "LE - 4 -Álgebra Booleana e simplificações lógicas",
-                    "materials": [
-                    ],
-                    "state": "PUBLISHED",
-                    "alternateLink": "https://classroom.google.com/c/NzAxMjU0NTY4Mjc0/a/NzA5Nzg4NzcyNDEy/details",
-                    "creationTime": "2024-09-11T01:07:08.370Z",
-                    "updateTime": "2024-09-11T20:41:15.066Z",
-                    "dueDate": {
-                        "year": 2024,
-                        "month": 9,
-                        "day": 24
-                    },
-                    "dueTime": {
-                        "hours": 2,
-                        "minutes": 59
-                    },
-                    "maxPoints": 100,
-                    "workType": "ASSIGNMENT",
-                    "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
-                    "creatorUserId": "101214062386013026470",
-                    "topicId": "685555503635"
-                },
-                {
-                    "courseId": "701254568274",
-                    "id": "685551692849",
-                    "title": "Q1 - Conceitos introdutórios",
-                    "materials": [
-                    ],
-                    "state": "PUBLISHED",
-                    "alternateLink": "https://classroom.google.com/c/NzAxMjU0NTY4Mjc0/a/Njg1NTUxNjkyODQ5/details",
-                    "creationTime": "2024-09-10T16:53:24.064Z",
-                    "updateTime": "2024-09-11T19:40:39.945Z",
-                    "dueDate": {
-                        "year": 2024,
-                        "month": 9,
-                        "day": 17
-                    },
-                    "dueTime": {
-                        "hours": 2,
-                        "minutes": 59
-                    },
-                    "maxPoints": 100,
-                    "workType": "ASSIGNMENT",
-                    "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
-                    "creatorUserId": "101214062386013026470",
-                    "topicId": "685551638000"
-                },
-                {
-                    "courseId": "701254568274",
-                    "id": "685557997617",
-                    "title": "Q2 – Números, Sistemas de Numeração, Operações e Códigos",
-                    "materials": [
-                    ],
-                    "state": "PUBLISHED",
-                    "alternateLink": "https://classroom.google.com/c/NzAxMjU0NTY4Mjc0/a/Njg1NTU3OTk3NjE3/details",
-                    "creationTime": "2024-09-10T19:14:29.460Z",
-                    "updateTime": "2024-09-11T19:40:25.880Z",
-                    "dueDate": {
-                        "year": 2024,
-                        "month": 9,
-                        "day": 17
-                    },
-                    "dueTime": {
-                        "hours": 2,
-                        "minutes": 59
-                    },
-                    "maxPoints": 100,
-                    "workType": "ASSIGNMENT",
-                    "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
-                    "creatorUserId": "101214062386013026470",
-                    "topicId": "685551638000"
-                },
-                {
-                    "courseId": "701254568274",
-                    "id": "685561508939",
-                    "title": "Q3 - Portas lógicas",
-                    "materials": [
-                    ],
-                    "state": "PUBLISHED",
-                    "alternateLink": "https://classroom.google.com/c/NzAxMjU0NTY4Mjc0/a/Njg1NTYxNTA4OTM5/details",
-                    "creationTime": "2024-09-10T21:20:08.342Z",
-                    "updateTime": "2024-09-11T19:40:10.973Z",
-                    "dueDate": {
-                        "year": 2024,
-                        "month": 9,
-                        "day": 17
-                    },
-                    "dueTime": {
-                        "hours": 2,
-                        "minutes": 59
-                    },
-                    "maxPoints": 100,
-                    "workType": "ASSIGNMENT",
-                    "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
-                    "creatorUserId": "101214062386013026470",
-                    "topicId": "685551638000"
-                },
-                {
-                    "courseId": "701254568274",
-                    "id": "685563895304",
-                    "title": "Q4 - Álgebra Booleana e simplificações lógicas",
-                    "materials": [
-                    ],
-                    "state": "PUBLISHED",
-                    "alternateLink": "https://classroom.google.com/c/NzAxMjU0NTY4Mjc0/a/Njg1NTYzODk1MzA0/details",
-                    "creationTime": "2024-09-10T23:33:45.234Z",
-                    "updateTime": "2024-09-11T19:39:53.691Z",
-                    "dueDate": {
-                        "year": 2024,
-                        "month": 9,
-                        "day": 24
-                    },
-                    "dueTime": {
-                        "hours": 2,
-                        "minutes": 59
-                    },
-                    "maxPoints": 100,
-                    "workType": "ASSIGNMENT",
-                    "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
-                    "creatorUserId": "101214062386013026470",
-                    "topicId": "685551638000"
-                },
-                {
-                    "courseId": "701254568274",
-                    "id": "685592776609",
-                    "title": "Q5 - Análise lógica combinacional",
-                    "materials": [
-                    ],
-                    "state": "PUBLISHED",
-                    "alternateLink": "https://classroom.google.com/c/NzAxMjU0NTY4Mjc0/a/Njg1NTkyNzc2NjA5/details",
-                    "creationTime": "2024-09-11T17:46:27.616Z",
-                    "updateTime": "2024-09-11T19:39:39.761Z",
-                    "dueDate": {
-                        "year": 2024,
-                        "month": 9,
-                        "day": 24
-                    },
-                    "dueTime": {
-                        "hours": 2,
-                        "minutes": 59
-                    },
-                    "maxPoints": 100,
-                    "workType": "ASSIGNMENT",
-                    "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
-                    "creatorUserId": "101214062386013026470",
-                    "topicId": "685551638000"
-                },
-                {
-                    "courseId": "701254568274",
-                    "id": "685282501167",
-                    "title": "MD - 4 - Álgebra Booleana e Simplificações Lógicas",
-                    "materials": [
-                    ],
-                    "state": "PUBLISHED",
-                    "alternateLink": "https://classroom.google.com/c/NzAxMjU0NTY4Mjc0/a/Njg1MjgyNTAxMTY3/details",
-                    "creationTime": "2024-08-30T20:48:48.723Z",
-                    "updateTime": "2024-09-06T22:24:54.679Z",
-                    "maxPoints": 100,
-                    "workType": "ASSIGNMENT",
-                    "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
-                    "creatorUserId": "101214062386013026470",
-                    "topicId": "685006766056"
-                },
-                {
-                    "courseId": "701254568274",
-                    "id": "685460441743",
-                    "title": "MD - 5 - Análise Lógica Combinacional",
-                    "materials": [
-                    ],
-                    "state": "PUBLISHED",
-                    "alternateLink": "https://classroom.google.com/c/NzAxMjU0NTY4Mjc0/a/Njg1NDYwNDQxNzQz/details",
-                    "creationTime": "2024-09-06T22:22:51.887Z",
-                    "updateTime": "2024-09-06T22:24:35.642Z",
-                    "maxPoints": 100,
-                    "workType": "ASSIGNMENT",
-                    "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
-                    "creatorUserId": "101214062386013026470",
-                    "topicId": "685006766056"
-                },
-                {
-                    "courseId": "701254568274",
-                    "id": "685175885191",
-                    "title": "MD - 3 - Portas Lógicas",
-                    "materials": [
-                    ],
-                    "state": "PUBLISHED",
-                    "alternateLink": "https://classroom.google.com/c/NzAxMjU0NTY4Mjc0/a/Njg1MTc1ODg1MTkx/details",
-                    "creationTime": "2024-08-23T23:45:54.652Z",
-                    "updateTime": "2024-08-23T23:47:16.473Z",
-                    "maxPoints": 100,
-                    "workType": "ASSIGNMENT",
-                    "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
-                    "creatorUserId": "101214062386013026470",
-                    "topicId": "685006766056"
-                },
+            "activities": [
                 {
                     "courseId": "701254568274",
                     "id": "685172458405",
@@ -507,12 +170,12 @@
                     ],
                     "state": "PUBLISHED",
                     "alternateLink": "https://classroom.google.com/c/NzAxMjU0NTY4Mjc0/a/Njg1MTcyNDU4NDA1/details",
-                    "creationTime": "2024-08-23T18:39:39.730Z",
-                    "updateTime": "2024-08-23T18:41:16.889Z",
+                    "creationTime": "2024-09-23T18:39:39.730Z",
+                    "updateTime": "2024-10-01T18:39:39.730Z",
                     "dueDate": {
                         "year": 2024,
-                        "month": 8,
-                        "day": 31
+                        "month": 10,
+                        "day": 4
                     },
                     "dueTime": {
                         "hours": 2,
@@ -523,54 +186,6 @@
                     "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
                     "creatorUserId": "101214062386013026470",
                     "topicId": "708085415237"
-                },
-                {
-                    "courseId": "701254568274",
-                    "id": "703380471547",
-                    "title": "MD - 2 - Números, Operações e Códigos",
-                    "materials": [
-                    ],
-                    "state": "PUBLISHED",
-                    "alternateLink": "https://classroom.google.com/c/NzAxMjU0NTY4Mjc0/a/NzAzMzgwNDcxNTQ3/details",
-                    "creationTime": "2024-08-09T18:48:23.395Z",
-                    "updateTime": "2024-08-09T18:59:27.932Z",
-                    "maxPoints": 100,
-                    "workType": "ASSIGNMENT",
-                    "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
-                    "creatorUserId": "101214062386013026470",
-                    "topicId": "685006766056"
-                },
-                {
-                    "courseId": "701254568274",
-                    "id": "702359858361",
-                    "title": "MD - 1 - Introdução",
-                    "materials": [
-                    ],
-                    "state": "PUBLISHED",
-                    "alternateLink": "https://classroom.google.com/c/NzAxMjU0NTY4Mjc0/a/NzAyMzU5ODU4MzYx/details",
-                    "creationTime": "2024-08-02T20:45:33.047Z",
-                    "updateTime": "2024-08-09T18:48:06.570Z",
-                    "maxPoints": 100,
-                    "workType": "ASSIGNMENT",
-                    "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
-                    "creatorUserId": "101214062386013026470",
-                    "topicId": "685006766056"
-                },
-                {
-                    "courseId": "701254568274",
-                    "id": "702346380450",
-                    "title": "MD - 0 - Apresentação",
-                    "materials": [
-                    ],
-                    "state": "PUBLISHED",
-                    "alternateLink": "https://classroom.google.com/c/NzAxMjU0NTY4Mjc0/a/NzAyMzQ2MzgwNDUw/details",
-                    "creationTime": "2024-08-02T19:11:10.434Z",
-                    "updateTime": "2024-08-09T18:47:32.085Z",
-                    "maxPoints": 100,
-                    "workType": "ASSIGNMENT",
-                    "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
-                    "creatorUserId": "101214062386013026470",
-                    "topicId": "685006766056"
                 }
             ]
         },
@@ -581,8 +196,8 @@
             "color": "#2756bb",
             "teacher": {
                 "id": "117377685722390238530",
-                "name": "Prof. Maria",
-                "image": "https://cdn-icons-png.flaticon.com/256/3177/3177440.png"
+                "name": "Prof. Lurdes",
+                "image": "/lurdes.jpeg"
             },
             "descriptionHeading": "2024/2 Sistemas Distribuídos",
             "ownerId": "112788942988695662153",
@@ -630,85 +245,20 @@
                     "creatorUserId": "112788942988695662153"
                 }
             ],
-            "courseWork": [
+            "activities": [
                 {
                     "courseId": "702933279436",
                     "id": "704699114599",
-                    "title": "Estudo Independente 2: Implementação de Containers com Docker",
+                    "title": "EI 2: Containers com Docker",
                     "description": "Objetivo: Implementar e compreender a aplicação de containers usando Docker.\n\nAtividade: \nInstalar e configurar o Docker em seus ambientes e criar um container simples. O estudo deve focar na virtualização de containers, explorando suas aplicações práticas e benefícios.\nDeve-se entregar um relatório que documenta o processo de instalação, configuração e uso do Docker, com capturas de tela e exemplos práticos.\n\nAvaliação: \nPode ser realizado em grupos de até 4 acadêmicos. Entretanto, cada acadêmico deve entregar o seu relatório no Classroom identificando os nomes dos integrantes do grupo.\n\nApresentação em aula.\n\nTempo de E.I: 5 horas\n\nPeso 20 pontos da Nota 1.\n\nData de entrega e apresentação: Semana 7 de aula.",
                     "state": "PUBLISHED",
                     "alternateLink": "https://classroom.google.com/c/NzAyOTMzMjc5NDM2/a/NzA0Njk5MTE0NTk5/details",
                     "creationTime": "2024-08-17T18:46:46.732Z",
-                    "updateTime": "2024-09-11T20:42:34.869Z",
-                    "dueDate": {
-                        "year": 2024,
-                        "month": 9,
-                        "day": 25
-                    },
-                    "dueTime": {
-                        "hours": 22,
-                        "minutes": 10
-                    },
-                    "maxPoints": 100,
-                    "workType": "ASSIGNMENT",
-                    "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
-                    "creatorUserId": "112788942988695662153",
-                    "topicId": "704698409206"
-                },
-                {
-                    "courseId": "702933279436",
-                    "id": "708911456425",
-                    "title": "Testando Algoritmos de Comunicação MPI",
-                    "description": "1. Implementar os algoritmos a partir dos códigos anexos a esta atividade (copiar para o nó master, gerar o arquivo, compilar e copiar para os dois nós escravos).\n2. Executar cada um dos algoritmos com 2, 4, 6 e 8 processos (caso necessário, adapte a quantidade de slots do arquivo mpi_hosts)\n3. Registre os tempos de execução para cada combinação de número de processos e tamanho de dados. Salve esses tempos em um arquivo ou em uma planilha para análise posterior.\n4. Compare o tempo de execução para cada algoritmo e número de processos. Observe como o desempenho varia com o aumento do número de processos e do tamanho dos dados.\n5. Escreva um relatório do seu entendimento sobre os resultados obtidos. Se desejar pode criar gráficos de desempenho a partir da tabulação de dados. Identifique as características de cada um dos algoritmos (qual é mais rápido? Como o número de processos e tamanho dos dados afetam o desempenho?) , apresentando cenários onde cada um deles seria indicado.",
-                    "materials": [
-                    ],
-                    "state": "PUBLISHED",
-                    "alternateLink": "https://classroom.google.com/c/NzAyOTMzMjc5NDM2/a/NzA4OTExNDU2NDI1/details",
-                    "creationTime": "2024-08-28T19:13:36.542Z",
-                    "updateTime": "2024-09-09T21:08:50.343Z",
-                    "maxPoints": 100,
-                    "workType": "ASSIGNMENT",
-                    "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
-                    "creatorUserId": "112788942988695662153",
-                    "topicId": "685510052618"
-                },
-                {
-                    "courseId": "702933279436",
-                    "id": "704699257178",
-                    "title": "Estudo Independente 1: Análise de Arquiteturas de Sistemas Distribuídos",
-                    "description": "Objetivo: Compreender as diferentes arquiteturas de sistemas distribuídos e sua aplicabilidade em cenários reais, identificando vantagens e desvantagens de cada tipo.\n\nAtividade: \nPesquisar e analisar duas arquiteturas de sistemas distribuídos: sistemas fortemente acoplados e sistemas fracamente acoplados. Para cada arquitetura, é necessário:\nDescrever suas características principais.\nIdentificar casos de uso típicos e exemplos práticos.\nComparar as vantagens e desvantagens de cada arquitetura.\n\nDeve ser entregue um relatório escrito com as seguintes seções:\nIntrodução sobre o tipo de arquitetura.\nDescrição detalhada das características.\nCasos de uso e exemplos práticos.\nComparação das vantagens e desvantagens.\n\nAvaliação: \nPode ser realizado em grupos de até 4 acadêmicos. Entretanto, cada acadêmico deve entregar o seu relatório no Classroom identificando os nomes dos integrantes do grupo.\n\nApresentação em aula.\n\nTempo de E.I: 5 horas\n\nPeso 20 pontos da Nota 1.\n\nData de entrega e apresentação: Semana 4 de aula.",
-                    "state": "PUBLISHED",
-                    "alternateLink": "https://classroom.google.com/c/NzAyOTMzMjc5NDM2/a/NzA0Njk5MjU3MTc4/details",
-                    "creationTime": "2024-08-17T18:44:58.657Z",
-                    "updateTime": "2024-08-28T22:14:58.008Z",
-                    "dueDate": {
-                        "year": 2024,
-                        "month": 8,
-                        "day": 28
-                    },
-                    "dueTime": {
-                        "hours": 22,
-                        "minutes": 40
-                    },
-                    "maxPoints": 100,
-                    "workType": "ASSIGNMENT",
-                    "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
-                    "creatorUserId": "112788942988695662153",
-                    "topicId": "704698409206"
-                },
-                {
-                    "courseId": "702933279436",
-                    "id": "704699001194",
-                    "title": "Estudo Independente 3: Sistemas de Arquivos Distribuídos e Blockchain",
-                    "description": "Objetivo: Analisar e comparar diferentes sistemas de arquivos distribuídos e entender como as tecnologias de blockchain podem ser integradas para aprimorar esses sistemas.\n\nAtividade: \nPesquisar e elaborar um relatório sobre sistemas de arquivos distribuídos, incluindo suas características, tipos e implementações. O relatório deve incluir uma análise de como as tecnologias de blockchain podem ser integradas a esses sistemas para melhorar aspectos como a segurança e a integridade dos dados.\nDeve-se entregar um relatório escrito que apresenta a análise dos sistemas de arquivos distribuídos, com uma seção específica sobre a integração de blockchain, incluindo exemplos práticos e benefícios.\n\nAvaliação: \nPode ser realizado em grupos de até 4 acadêmicos. Entretanto, cada acadêmico deve entregar o seu relatório no Classroom identificando os nomes dos integrantes do grupo.\n\nApresentação em aula.\n\nTempo de E.I: 5 horas\n\nPeso 20 pontos da Nota 2.\n\nData de entrega e apresentação: Semana 11 de aula.",
-                    "state": "PUBLISHED",
-                    "alternateLink": "https://classroom.google.com/c/NzAyOTMzMjc5NDM2/a/NzA0Njk5MDAxMTk0/details",
-                    "creationTime": "2024-08-17T18:48:40.067Z",
-                    "updateTime": "2024-08-17T21:03:20.424Z",
+                    "updateTime": "2024-10-02T18:39:39.730Z",
                     "dueDate": {
                         "year": 2024,
                         "month": 10,
-                        "day": 16
+                        "day": 2
                     },
                     "dueTime": {
                         "hours": 22,
@@ -719,54 +269,6 @@
                     "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
                     "creatorUserId": "112788942988695662153",
                     "topicId": "704698409206"
-                },
-                {
-                    "courseId": "702933279436",
-                    "id": "704699496264",
-                    "title": "Estudo Independente 4: Comparação de Provedores de Computação em Nuvem e Blockchain",
-                    "description": "Objetivo: Comparar diferentes provedores de computação em nuvem e avaliar como eles suportam soluções de blockchain.\n\nAtividade: \nPesquisar e comparar diversos provedores de computação em nuvem, focando em como eles podem ser utilizados para implementar soluções de blockchain. O relatório deve incluir uma análise das ofertas dos provedores e suas capacidades de suporte ao blockchain.\nDeve ser entregue um relatório que compara os provedores de nuvem, analisando suas capacidades para suportar soluções de blockchain, com recomendações baseadas na análise.\n\nAvaliação: \nPode ser realizado em grupos de até 4 acadêmicos. Entretanto, cada acadêmico deve entregar o seu relatório no Classroom identificando os nomes dos integrantes do grupo.\n\nApresentação em aula.\n\nTempo de E.I: 5 horas\n\nPeso 20 pontos da Nota 2.\n\nData de entrega e apresentação: Semana 15 de aula.",
-                    "state": "PUBLISHED",
-                    "alternateLink": "https://classroom.google.com/c/NzAyOTMzMjc5NDM2/a/NzA0Njk5NDk2MjY0/details",
-                    "creationTime": "2024-08-17T18:49:26.526Z",
-                    "updateTime": "2024-08-17T21:03:02.527Z",
-                    "dueDate": {
-                        "year": 2024,
-                        "month": 11,
-                        "day": 13
-                    },
-                    "dueTime": {
-                        "hours": 22,
-                        "minutes": 10
-                    },
-                    "maxPoints": 100,
-                    "workType": "ASSIGNMENT",
-                    "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
-                    "creatorUserId": "112788942988695662153",
-                    "topicId": "704698409206"
-                },
-                {
-                    "courseId": "702933279436",
-                    "id": "703050347102",
-                    "title": "Pesquisa sobre períodos específicos da evolução dos sistemas distribuídos;",
-                    "description": "1. Primeiros Sistemas em Rede (1960-1970) - Grupo 5: Guilherme, Pedro, Lucas T, Daniel;\n\n2. Redes Locais (1980) - Grupo 3: Marco, William, Cristian, Pedro F, Matheus P;\n\n3. Internet e Sistemas Distribuídos (1990) - Grupo 1: Matheus B., Diego Meinerz, Elias e Fernanda;\n\n4. Web e Serviços Online (2000)  - Grupo 2: Henrique, Gabriel, Felipe e Renan;\n\n5. Computação em Nuvem e IoT (2010-presente) - Grupo 4: Amanda, Leonardo, Lucas K, Kayky;\n\nCada grupo deve identificar os marcos importantes, inovações tecnológicas, e mudanças nas arquiteturas durante seu período.\nElaborar uma apresentação de 5 a 10min para a turma.",
-                    "state": "PUBLISHED",
-                    "alternateLink": "https://classroom.google.com/c/NzAyOTMzMjc5NDM2/a/NzAzMDUwMzQ3MTAy/details",
-                    "creationTime": "2024-08-08T01:10:47.883Z",
-                    "updateTime": "2024-08-14T22:54:00.322Z",
-                    "dueDate": {
-                        "year": 2024,
-                        "month": 8,
-                        "day": 14
-                    },
-                    "dueTime": {
-                        "hours": 23,
-                        "minutes": 30
-                    },
-                    "maxPoints": 100,
-                    "workType": "ASSIGNMENT",
-                    "submissionModificationMode": "MODIFIABLE_UNTIL_TURNED_IN",
-                    "creatorUserId": "112788942988695662153",
-                    "topicId": "685045785051"
                 }
             ]
         }

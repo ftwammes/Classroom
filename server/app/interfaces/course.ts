@@ -1,4 +1,5 @@
 import { color } from './../../../client/classroom/node_modules/@mui/system/palette/palette.d';
+import mock_activities from './activities';
 import teacher_interface from './teacher';
 
 export default interface course_interface {
@@ -7,5 +8,6 @@ export default interface course_interface {
     descriptionHeading: string,
     image: string, 
     color: string,
-    teacher: teacher_interface
+    teacher: teacher_interface, 
+    activities: mock_activities[]
 }

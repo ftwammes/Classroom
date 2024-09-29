@@ -14,7 +14,7 @@ export default function Classroom() {
   const fetchCourses = async () => {
 
     Requester.get<any>("/courses").then(res => {
-      return res.data.json();
+      return res.data;
     }).then(data => {
       setCourses(data.courses);
     }).catch(error => {
@@ -40,6 +40,7 @@ export default function Classroom() {
                 color={course.color}
                 descriptionHeading={course.descriptionHeading}
                 teacher={course.teacher}
+                activities={course.activities}
               />
             );
             

@@ -35,7 +35,7 @@ export default interface mock_interface {
             creatorUserId: number
         }
     ],
-    courseWork: [
+    activities: [
         {
             courseId: number,
             id: number,
