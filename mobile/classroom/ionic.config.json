@@ -1,0 +1,7 @@
+{
+  "name": "classroom",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
