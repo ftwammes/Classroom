@@ -1,0 +1,100 @@
+.classCard__upper {
+    position: relative;
+    color: white;
+    padding: 10px;
+    background-size: cover;
+  }
+  
+  .classCard {
+    width: 350px;
+    border: 1px solid #dadce0;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    color: white;
+    height: 380px;
+    margin: 15px; 
+  }
+  
+  .classCardHeader {
+    position: relative;
+    height: 120px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    /* Permite que cliques passem para a div abaixo */
+  }
+  
+  .classCard__middle {
+    height: 215px;
+    border-bottom: 1px solid #dcdcdc;
+    color: var(--primary-font-color);
+  }
+
+  .classCard__activity {
+    font-size: .8rem;
+    padding: 17px;
+    font-weight: 500;
+  }
+
+  .classCard__activityLabel {
+    color: #0000008c;
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  .classCard__activityName:hover {
+    text-decoration: underline;
+  }
+  
+  .classCard__creatorPhoto {
+    width: 85px;
+    position: absolute;
+    right: 17px;
+    border-radius: 9999px;
+    top: 72px;
+  }
+  
+  .classCard__className {
+    font-weight: 300;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .classCard__className:hover {
+    text-decoration: underline;
+  }
+  
+  .classCard__creatorName {
+    position: absolute; 
+    top: 85px; 
+    font-size: 15px;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+  }
+
+  .classCard__creatorName:hover {
+    text-decoration: underline;
+  }
+  
+  .classCard__lower {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .menuIcon {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+    color: white; 
+    width: 30px;
+  }
