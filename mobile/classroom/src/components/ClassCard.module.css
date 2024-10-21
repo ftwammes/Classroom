@@ -6,14 +6,13 @@
   }
   
   .classCard {
-    width: 350px;
     border: 1px solid #dadce0;
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
     position: relative;
     color: white;
-    height: 380px;
+    height: 216px;
     margin: 15px; 
   }
   
@@ -33,7 +32,7 @@
   }
   
   .classCard__middle {
-    height: 215px;
+    height: 54px;
     border-bottom: 1px solid #dcdcdc;
     color: var(--primary-font-color);
   }
@@ -56,10 +55,16 @@
   
   .classCard__creatorPhoto {
     width: 85px;
+    height: 85px;
+    border-radius: 50%; /* Isso garante que a imagem fique redonda */
+    object-fit: cover;  /* Para garantir que a imagem não seja distorcida */
     position: absolute;
     right: 17px;
-    border-radius: 9999px;
     top: 72px;
+  }
+
+  .classCard__creatorPhoto::part(image) {
+    border-radius: 50%;
   }
   
   .classCard__className {

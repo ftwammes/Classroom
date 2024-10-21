@@ -26,7 +26,6 @@ function Navbar() {
             alt="Google Logo"
             className={styles.navbar__logo}
           />{" "}
-          <span>Google Sala de Aula</span>
         </div>
         <div className={styles.navbar__right}>
           <IconButton

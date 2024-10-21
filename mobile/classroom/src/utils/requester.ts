@@ -2,7 +2,7 @@ import axios, { AxiosError, AxiosRequestConfig, AxiosResponse } from 'axios';
 
 class Requester {
   private static api = axios.create({
-    baseURL: process.env.BACKEND_SERVER || 'http://localhost:3000', // Altere para a URL do seu backend
+    baseURL: process.env.BACKEND_SERVER || 'http://192.168.1.105:3000', // Altere para a URL do seu backend
     headers: {
       'Content-Type': 'application/json',
     },
